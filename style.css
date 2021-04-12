@@ -1,0 +1,83 @@
+.top{
+    color: orange;
+    
+}
+body{
+
+    font-family: 'Oswald', sans-serif;
+    margin: opx;
+
+}
+h1{
+    font-size: 50px;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img{
+
+    width: 100%;
+}
+.top-banner{
+    background-image:url("images/top-banner.png") ;
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: tomato;
+    color: wheat;
+    padding:10px 20px;
+    background-image: linear-gradient(tomato, red);
+
+}
+h2{
+    font-size: 40px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+
+   .single-experience{
+       box-shadow: 10px 10px 40px gray;
+       border-radius: 10px;
+       height: 80%;
+       background-color: white;
+
+   }
+   .ex-area{
+       background-image: url("images/exp-bg.png");
+       background-repeat: no-repeat;
+    background-position:left ;
+
+
+
+   }
+   #full-stack{
+       border-left: 7px solid;
+     border-image: linear-gradient(gray,tomato);
+     border-image-slice: 1;
+
+   }
+   #baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(gray,green);
+    border-image-slice: 1;
+
+    
+   }
+  footer p{
+      text-align: center;
+      font-size: 12px;
+  }
